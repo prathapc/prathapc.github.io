@@ -3,6 +3,13 @@ layout: page
 title: Contact
 ---
 
-Feel free to write an email
+Get in touch with me on 
 
-Thank you
+* [Twitter](https://twitter.com/pchoudhury28) 
+* [Facebook](https://www.facebook.com/pratap.choudhury28)
+* [Linkedin](https://in.linkedin.com/in/prathapc) 
+* [Github](https://github.com/prathapc)
+* [Angel.co](https://angel.co/prathap-chowdary)
+
+Feel free to write <a href="mailto:prathap.choudhury@gmail.com"> me<a/>
+
