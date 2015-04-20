@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Prathap's blog
+tagline:          'Welcome to my blog'
+description:      ''
+url:              http://www.prathapchowdary.com
+baseurl:          /
+
+author:
+  name:           'Prathap Chowdary'
+  url:            https://twitter.com/pchoudhury28
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/prathapc/prathapc.github.io
