@@ -3,7 +3,7 @@ layout: post
 title: How to get started with Redis
 ---
 
-Recently i have used Redis extensively at our startup to deal with couple of complex data structures. After moving to redis we saw sharp load time of web pages when compared to earlier where we were loading from MySql database. 
+Recently i have used Redis extensively at our startup to deal with couple of complex data structures. After moving to redis we saw clear difference in load time of web pages when compared to earlier where we were loading from MySql database. 
 
 I would like to present a simple demo on how to get started with Redis in minutes for beginners.
 
@@ -40,7 +40,7 @@ redisTemplate.opsForHash.entries(String.valueOf("key")); //get
 redisTemplate.opsForHash().putAll("key", "value"); //put
 {% endhighlight %}
 
-Thats a simple introduction to Redis, we can deal with even complex data structes in real time with amazing fetching speed. We even maintaining all our user sessions in redis which gave drastic performance boost for our enterprise application. I will cover session management in other post of mine.
+Thats a simple introduction to Redis, we can deal with even complex data structes in real time with amazing fetching speed. We are maintaining all our user sessions as well in redis which gave drastic performance boost for our enterprise application. I will cover session management in other post of mine.
 
 
-Bye!
+Happy Caching!
