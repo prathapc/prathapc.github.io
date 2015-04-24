@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Up and running with RabbitMQ in 10 minutes
+comments: true
 ---
 
 RabbitMQ is robust messaging queue for your applications. You may be thinking of data delivery, non-blocking operations or push notifications. Or you want to use publish / subscribe, asynchronous processing, or work queues. All these are patterns, and they form part of messaging.
@@ -77,3 +78,20 @@ channel.basicAck(delivery.getEnvelope().getDeliveryTag(), false);
 That's all you have to consume your message and to acknowledge. You can see my [github repo](https://github.com/prathapc/RabbitMQ) for different types of consumer queues like named queue, worker queue and pub/sub based queue etc.
 
 Happy Queuing!
+
+
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'wwwprathapchowdarycom';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{% endif %}
