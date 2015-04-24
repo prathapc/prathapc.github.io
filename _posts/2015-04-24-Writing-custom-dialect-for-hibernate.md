@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Writing our own diablect for hibernate
+title: Writing our own dialect for hibernate
 ---
 
 We were using MySqlDialect for in our project regarding object relational mapping (yes we are using hibernate). So far we dont have requirement to write our own dialect untill we encounter below native query in our project 
