@@ -3,7 +3,6 @@ layout: post
 title: How to get started with Redis
 comments: true
 ---
-
 Recently i have used Redis extensively at our startup to deal with couple of complex data structures. After moving to redis we saw clear difference in load time of web pages when compared to earlier where we were loading from MySql database. 
 
 I would like to present a simple demo on how to get started with Redis in minutes for beginners.

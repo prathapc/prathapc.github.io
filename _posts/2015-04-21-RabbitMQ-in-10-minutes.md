@@ -3,7 +3,6 @@ layout: post
 title: Up and running with RabbitMQ in 10 minutes
 comments: true
 ---
-
 RabbitMQ is robust messaging queue for your applications. You may be thinking of data delivery, non-blocking operations or push notifications. Or you want to use publish / subscribe, asynchronous processing, or work queues. All these are patterns, and they form part of messaging.
 
 RabbitMQ is a messaging broker - an intermediary for messaging. It gives your applications a common platform to send and receive messages, and your messages a safe place to live until received.

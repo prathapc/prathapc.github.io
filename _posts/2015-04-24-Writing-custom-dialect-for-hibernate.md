@@ -3,7 +3,6 @@ layout: post
 title: Writing our own dialect for hibernate
 comments: true
 ---
-
 We were using MySqlDialect in our project regarding object relational mapping (yes we are using hibernate). So far we dont have requirement to write our own dialect untill we encounter below native query in our project 
 
 {% highlight ruby %}
